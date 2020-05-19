@@ -1,6 +1,8 @@
 # C-8QueenRiddle-Threads-2-versions
 This project is implemented by Threads in two versions:
+
   version 1:
+  
     The main thread will create 15 + 15 + 8 + 8 = 46 threads.
     The work of testing the solution (a standard chessboard) will be shared between these threads.
     Eight threads (one per line) will check the line integrity of the board.
@@ -18,6 +20,7 @@ This project is implemented by Threads in two versions:
     This version does not use lock mutex or variables condition (according to the question guidelines).
     
   version 2:
+  
       The main thread will check correctness of the testing solution (standard chess board).
       A valid chess board to check consists of only "Q","." and whitespace characters.
       A valid solutin for the test consists of exactly 1 Queen in each row/column and at most 1 Queen at the diagonals.
